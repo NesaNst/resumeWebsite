@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Nesa Nosrattalab" />
+		<meta name="keywords" content="Nesa, Nessa, Nes, Nosrat, nesa, nessa, nosrattalab, Nosrattalab" />
+		<link rel="stylesheet" href="../nesa.css">	
+		<style>
+	
+			#wrapper{display:grid;
+				     grid-template:
+					 'header header header'
+					 'nav p picture'
+					 'footer footer footer'
+			}
+			header{grid-area:header;
+			}
+			.picture{grid-area:picture;
+					 margin-top:10px;
+			}
+			p{grid-area:p;
+				margin-left:150px;
+				margin-right:20px;
+				padding-top:50px;
+			}
+			nav{grid-area:nav;
+			}
+			footer{grid-area:footer;
+			}
+			
+			img:hover {width:200px; height:200px; transition: 2s ease-in-out;}
+			
+			
+		</style>
+	</head>
+	<body>
+		<script>
+			alert("Welcome to My resume website"); 
+		</script>
+
+	
+	<main>
+	<div id="wrapper">
+	
+		<header>
+		<h1> About Nesa</h1>
+		
+		</header>
+		
+	
+		<div class="picture">
+		<a href="../Pictures/me.jpg"> 
+		<img src="../Pictures/me2.jpg" alt="me" width="300" height="300">
+		</a>
+		</div>
+		<p>
+			My name is Nesa. <br>
+			I am 21 years old. <br>
+			I am a student at Langara College and I have been in Canada for 9 months. <br>
+			I am studying compputer studies. <br>
+			Currently I am not working, but I am looking for part time jobs. <br>
+			I am planning to apply for  a co-op program on my 3rd semester as I know the importance of experience for finding my first job. 
+		</p>
+		<nav>
+			<ul>
+				<li> <a href="AboutMe.html"> About Me </a> </li>
+				<li> <a href="../Education/education.html"> Education </a> </li>
+				<li> <a href="../Abilities/abilities.html"> Abilities </a> </li>
+				<li> <a href="../Interests/interests.html"> Interests </a> </li>
+				<li> <a href="../Contacts/contacts.html"> Contact </a> </li>
+			</ul>
+		</nav>
+	
+		<footer>
+		
+
+				Copyright  &copy; 2022 Nesa Nosrattalab <br>
+				<a href="mailto:nesa.nosrattalab@gmail.com"> nesa.nosrattalab@gmail.com </a>
+
+			
+		</footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	</main>
+	</body>
+	</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Abilities</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Nesa Nosrattalab" />
+		<meta name="keywords" content="Nesa, Nessa, Nes, Nosrat, nesa, nessa, nosrattalab, Nosrattalab" />
+		<link rel="stylesheet" href="../nesa.css">	
+		<style>
+	
+			#wrapper{display:grid;
+				     grid-template:
+					 'header header header header'
+					 'nav content skill .'
+					 '. m m m'
+					 'footer footer footer footer'
+			}
+			header{grid-area:header;
+			}
+			.content{grid-area:content;
+				margin-left:250px;
+				margin-bottom:20px;
+			}
+			.skill{grid-area:skill;
+			}
+			nav{grid-area:nav;
+			}
+			footer{grid-area:footer;
+			}
+			#m{grid-area:m;
+				margin-top:20px;
+				margin-left:250px;
+			}
+			
+		</style>
+	</head>
+	<body>
+	
+	<main>
+	<div id="wrapper">
+	
+		<header>
+		<h1> Abilities</h1>
+		
+		</header>
+		
+	
+	
+	<div class="content">
+			<h3> Languages</h3>
+			<ul>
+				<li>Persian (native)</li>
+				<li>English (daily use)</li>
+				<li>Turkish (basic)</li>
+				<li>French (basic)</li>
+				<li>Hungarian (basic)</li>
+			
+			</ul>
+
+	</div>
+	<div class="skill">	
+			
+			<h3>Skills</h3>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS</li>
+				<li>PYTHON</li>
+				<li>Web design</li>
+			</ul>
+	</div>
+		<nav>
+			<ul>
+				<li> <a href="../AboutMe/AboutMe.html"> About Me </a> </li>
+				<li> <a href="../Education/education.html"> Education </a> </li>
+				<li> <a href="abilities.html"> Abilities </a> </li>
+				<li> <a href="../Interests/interests.html"> Interests </a> </li>
+				<li> <a href="../Contacts/contacts.html"> Contact </a> </li>
+			</ul>
+		</nav>
+	<div id="m">
+		<h4>Goal</h4>
+			Playing always is one of my goals and this audio has been a motivator, so hopefully soon enough<br>
+			I will add my own playing instead of this. <br><br>
+		
+		<audio controls="controls">
+			<source src="../FullSizeRender.MOV 2.mp3" type="audio/mpeg">
+			<a href="FullSizeRender.MOV 2.mp3">Download the audio file</a>
+		</audio>
+
+	</div>
+		<footer>
+		
+
+				Copyright  &copy; 2022 Nesa Nosrattalab <br>
+				<a href="mailto:nesa.nosrattalab@gmail.com"> nesa.nosrattalab@gmail.com </a>
+
+			
+		</footer>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	</main>
+	</body>
+	</html>

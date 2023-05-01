@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../nesa.css">	
+	<style>
+		#content{margin-left:150px;
+				 margin-right:150px;
+}
+	</style>
+	</head>
+	<body>
+		<header>
+		<h1> Contact</h1>
+		</header>
+	<main>
+	
+<div id="content">
+	<p><i> Phone number: +1 (778) 951 7464 </i></p>
+	<p>Email: <a href="mailto:nesa.nosrattalab@gmail.com"> nesa.nosrattalab@gmail.com </a> </p>
+	
+	<div id="form">
+	If you want you can provide your information and I will contact you:
+	<form id="info" name="info">
+	Name: 
+	<input type="text" required="required" name="fname" placeholder="First name">
+	<input type="text" required="required" name="lname" placeholder="Last name">
+	<input type="submit">
+	</form>
+	<br>
+	<form name="gender">
+		<input type="radio" name="g" value="male">male<br>
+		<input type="radio" name="g" value="female">female<br>
+		<input type="radio" name="g" value="other">other
+	</form>
+	<br>
+	<form>
+		 Email: <input type="email" required="required" placeholder="Email">
+		<input type="submit">
+	</form>
+
+	
+
+
+
+	</div>
+
+</div>
+	
+		<nav>
+			<ul>
+				<li> <a href="../AboutMe/AboutMe.html"> About Me </a> </li> 
+				<li> <a href="../Education/education.html"> Education </a> </li> 
+				<li> <a href="../Abilities/abilities.html"> Abilities </a> </li> 
+				<li> <a href="../Interests/interests.html"> Interests </a> </li>
+				<li> <a href="contacts.html"> Contact </a> </li>
+			</ul>
+		</nav>
+	
+		
+</main>	
+	
+	<footer>
+
+				Copyright  &copy; 2022 Nesa Nosrattalab <br>
+				<a href="mailto:nesa.nosrattalab@gmail.com"> nesa.nosrattalab@gmail.com </a>
+
+			
+	</footer>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+	</html>
